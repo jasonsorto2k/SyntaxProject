@@ -8,12 +8,13 @@ public class task3 {
                             {6,7,8,9,10}
         };
 
+        int sum = 0;
         for (int row = 0; row < numbers.length; row++) {
             for (int col = 0; col < numbers[row].length; col++) {
-                System.out.println(numbers[row][col]);
+                sum=sum+ numbers[row][col];
             }
-
-
         }
+        System.out.println(sum);
+
     }
 }
